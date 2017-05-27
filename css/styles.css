@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Century Gothic", Calibri, sans-serif;
+	background-color: #a8e6cf;
+}
+
+#error {
+	color: red;
+	font-size: 30px;
+}
+
+.main {
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+}
+
+input {
+	width: 100%;
+	box-sizing: border-box;
+	height: 80px;
+	font-size: 45px;
+	text-align: center;
+	padding-right: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+#inputExp {
+	text-align: right;
+	height: 120px;
+}
+
+label {
+	font-size: 35px;
+}
+
+button {
+	color: black;
+	background-color: RGBa(0, 0, 0, 0);
+	border: none;
+	padding: 40px 50px;
+	text-transform: uppercase;
+	font-size: 25px;
+	width: 100%;
+	
+	/** Animation **/
+	-webkit-transition: background-color .2s;
+	-moz-transition: background-color .2s;
+	-o-transition: background-color .2s;
+	transition: background-color .2s;
+}
+
+button:hover {
+	background-color: #C8C6CB;
+}
+
+#calcul {
+	border-radius: 0px;
+}
+
+table {
+	margin: 15px auto;
+	border-collapse: collapse;
+	border: 1px solid black;
+	background-color: #eae7ed;
+}
+
+tr, td {
+	padding: 0;
+	margin: 0;
+}
+
+/*--------------------------------------
+	Responsive
+---------------------------------------*/
+@media screen and (max-width: 780px) {
+	button {
+		padding: 0;
+	}
+	.calculette {
+		margin: 0 auto;
+		width: 80%;
+	}
+}
